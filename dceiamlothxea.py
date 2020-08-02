@@ -20,6 +20,7 @@ def decimal_to_hexadecimal(num):
     remainder.reverse()
     return ''.join(map(str, remainder))
 
-num = int(input("Enter Decimal Value: "))
-ret = decimal_to_hexadecimal(num)
-print("Octal Value is: ", ret)
+def D_to_H():
+    num = int(input("Enter Decimal Value: "))
+    ret = decimal_to_hexadecimal(num)
+    print("Hexadecimal Value is: ", ret)
