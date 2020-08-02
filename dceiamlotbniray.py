@@ -8,6 +8,7 @@ def decimal_to_binary(num):
         num = num//2
     remainder.reverse()
     return ''.join(map(str, remainder))
-num = int(input("Enter Decimal Value: "))
-ret = decimal_to_binary(num)
-print("Binary Value is: ", ret)
+def D_to_B():
+    num = int(input("Enter Decimal Value: "))
+    ret = decimal_to_binary(num)
+    print("Binary Value is: ", ret)
