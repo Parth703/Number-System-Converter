@@ -16,7 +16,7 @@ def binary_to_decimal(num):
 		twos_mul *= 2
 	#To do for fractoinal value uptill 4 decimals!!
 	return new_int
-
-num = input("Enter the Binary Value: ")
-ret = binary_to_decimal(num)
-print("The Decimal Value is: ",ret)
+def B_to_D():
+	num = input("Enter the Binary Value: ")
+	ret = binary_to_decimal(num)
+	print("The Decimal Value is: ",ret)
