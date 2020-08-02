@@ -10,6 +10,7 @@ def octal_to_decimal(num):
 	    #To do for fractoinal value uptill 4 decimals!!
     return new_int
 
-num = input("Enter the Octal Value: ")
-ret = octal_to_decimal(num)
-print("The Decimal Value is: ",ret)
+def O_to_D():
+	num = input("Enter the Octal Value: ")
+	ret = octal_to_decimal(num)
+	print("The Decimal Value is: ",ret)
