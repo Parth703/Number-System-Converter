@@ -22,6 +22,7 @@ def hexadecimal_to_decimal(num):
         hex_mul *= 16
     return new_int
 
-num = input("Enter Hexa-Decimal Number: ")
-ret = hexadecimal_to_decimal(num)
-print("Decimal Value is: ", ret)
+def H_to_D():
+    num = input("Enter Hexa-Decimal Number: ")
+    ret = hexadecimal_to_decimal(num)
+    print("Decimal Value is: ", ret)
